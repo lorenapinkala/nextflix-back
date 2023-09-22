@@ -18,8 +18,7 @@ require("dotenv").config();
  app.use("/api", routes);
 
 
-/* .then(() => { */
 app.listen(3000, () => {
   console.log("Api working..");
-  /*   }); */
+
 });
