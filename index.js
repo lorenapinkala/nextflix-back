@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 require("dotenv").config();
 
 app.use(cors({
-  origin: 'https://nextflix-cyan-nu.vercel.app/'
+  origin: '*'
 }));
  app.use(express.json());
  app.use(volleyball);
